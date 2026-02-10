@@ -1,0 +1,40 @@
+Question:
+The sqquirrels in palo alto spend most of the day playing . In particular they play if the 
+temperature is between 60 and 90(inclusive).Unless it is summer, then the upper limit 
+is 100 instead of 90. Give an int temperatureand a boolean summer return true
+if the squirrels play and false otherwise
+
+PROGRAM:
+#include<stdio.h>
+void main()
+{
+
+    int temp,summer;
+    printf("enter the temp:");
+    scanf("%d",&temp);
+    printf("enter 1 for summer \t 0 for not summer");
+    scanf("%d",&summer);
+    if(summer==1)
+    {
+        if(temp>=60&&temp<=100)
+        {
+            printf("true");
+        }
+        else
+        {
+            printf("false");
+        }
+    }
+    else  
+    {
+        if(temp>=40&&temp<=90)
+        {
+            printf("true");
+        }
+        else
+        {
+            printf("false");
+        }
+        
+    } 
+}
