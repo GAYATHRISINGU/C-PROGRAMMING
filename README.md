@@ -11,3 +11,4 @@ int main() {
     printf("The %c is an ALPHABET: %d\n", a, res);
     return 0;
 }
+C 
