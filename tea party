@@ -1,4 +1,7 @@
 scenario based question:
+we are having a part with amount of a tea and candy return the int outcome of the party encoded as 0=bad, 1=good, 2=great.
+A party is good (1).if both tea and candy are at least double the amount of the other one the party is great(2) however
+in all if either tea or candy is less than 5. the party is bad(0)
 
 #include<stdio.h>
 int main()
