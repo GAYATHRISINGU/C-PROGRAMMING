@@ -1,0 +1,25 @@
+we want to make a row of bricks that is goal inches long . we have a number of small bricks(1 inch each) and big bricks(5 inch each).
+return true if it is possible to make the goal by choosing from the given bricks
+
+
+
+#include<stdio.h>
+int main()
+{
+int small,big,goal;
+printf(" enter the values:");
+scanf("%d%d%d",&small,&big,&goal);
+if(goal>small+big*5)
+{
+    printf("false");
+}
+else if(goal/5<=small)
+{
+    printf("true");
+}
+else
+{
+    printf("false");
+}
+return 0;
+}
