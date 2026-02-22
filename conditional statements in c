@@ -1,0 +1,29 @@
+// write a program to login a page using user id and password using if else statements
+#include <stdio.h>
+int main() 
+{
+int id=7963;
+int pwd=5321;
+int uid;
+int upwd;
+printf("enter the user id:");
+scanf("%d",&uid);
+printf("enter the password:");
+scanf("%d",&upwd);
+if(uid==id)
+{
+    if(pwd==upwd)
+    {
+        printf("login successful");
+    }
+    else
+    {
+        printf("incorrect password");
+    }
+}
+else
+{
+    printf("user does'nt exist");
+}
+    return 0;
+}
